@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="./Form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<nav>
+    <a href="#"><li>Home</li></a>
+        <a href="#"><li>Course Module-2025</li></a>
+            <a href="#"><li>Class Schedule</li></a>
+                <a href="#"><li>Success Story</li></a>
+                    <a href="#"><li>Attendence</li></a>
+                        <a href="#"><li>FAQ</li></a>
+                            <a href="#"><li>Login</li></a>
+</nav>
+
+    <form action="form" class="form"><span class="fo">Student Registration Form
+
+    </span><hr class="jogesh">
+
+<!--DISTRICT SECTION  -->
+<p class="do"> Please enter relevent information</p>
+
+<div class="main">
+
+<div class="first">
+    <small>Mendatury Field</small>
+
+    <p for="d">District (<smal> Institue district: where are you want to do your course </smal>)*</p>
+    <label for="d"></label>
+    
+    <select name="" id="d">
+        <option value="--Select" disabled selected for="d">--Select One--</option>
+        <option value="Dhaka" for="d">Dhaka</option>
+        <option value="Khluna" for="d">Khluna</option>
+        <option value="Barishal" for="d">Barishal</option>
+        <option value="Dinajpur" for="d">Dinajpur</option>
+        <option value="Shatkhira" for="d">Shatkhira</option>
+    </select>
+    
+<!-- COURSE SECTION --> <p>
+<label for="course">course*</label></p>
+ 
+<select name="" id="course">
+   <option value="select" disabled selected >--Select One--</option>
+   <option value="wd" >Web design</option>
+   <option value="crse" >Web Development</option>
+   <option value="coe" >Graphics Design</option>
+   <option >Digital Marketing</option>
+   <option value="cou" >UI XI</option>
+</select>
+
+<p><label for="name">Student Name*</label></p>
+
+<input type="text" name="" id="name">
+
+<p><label for="father">Father Name*</label></p>
+
+<input type="text" name="" id="father">
+<p><label for="mother">Mother Name*</label></p>
+
+<input type="text" name="" id="mother">
+
+<!-- DATE OF BIRTH -->
+<div>
+
+    <p> 
+<span class="day" id="da">Day</span>
+<span class="day" id="mo">Month</span>
+<span class="day" id="ye">Year</span>
+
+</p>
+
+<input type="number" class="day" placeholder="select" min="1" max="31">
+<input type="number" class="day" placeholder="select" min="1" max="12">
+<input type="number" class="day" placeholder="select" min="1950" max="2025">
+
+</div>
+
+ <p>
+    <label for="gender">Gender*</label>
+    <input type="radio" name="jo" id="gender"> Male
+    <input type="radio" name="jo" id="gender"> Female
+    <input type="radio" name="jo" id="gender"> Custom
+   </p>
+   
+
+
+   <p>
+    <label for="ph">Physically Handicapped*</label>
+    <input type="radio" name="j" id="ph"> Yes
+    <input type="radio" name="j" id="ph"> No
+ 
+   </p>
+   
+<p><label for="email">Email*</label>
+<input type="email" name="" id="email"><br>
+(e.g: example@gmail.com)
+
+
+</p>
+
+<p>
+<label for="phone">Phone(Must be 11 Digits)*</label>
+<input type="number" name="" id="phone"><br>
+(e.g:01945499610)
+</p>
+
+
+</div>
+
+
+
+
+
+<hr class="middle">
+
+
+
+
+
+
+
+
+<div class="second">
+
+    <p><label for="type"> Identification Type</label>
+        <select name="" id="type">
+            <option value="select" disabled selected >--Select One--</option>
+            <option value="wd" >Web design</option>
+            <option value="crse" >Web Development</option>
+            <option value="coe" >Graphics Design</option>
+            <option >Digital Marketing</option>
+            <option value="cou" >UI XI</option></select>
+    </p>
+    <label for="co">
+    Identification No.(Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*</label>
+    <input type="number" name="" id="co">
+    
+    <p>
+    <label for="home">Home District*</label>
+    <input type="text" name="" id="home">
+    
+    </p>
+    
+    <p>
+    <label for="upa">Upazila*</label>
+    <select name="" id="upa">
+        <option value="" disabled selected>--Select One--</option>
+        <option value="">Dumuria</option>
+        <option value="">Magura</option>
+        <option value="">Samnagar</option>
+    <option value="">Bhatiyaghata</option>
+    <option value="">Rampal</option>
+    <option value="">Sunadanga</option>
+    <option value="">
+    Keshebpur
+    </option>
+    <option value="">Monirampur</option>
+    <option value="">Nehalpur</option>
+    <option value="">Hasanpur</option>
+    <option value="">Bduthhata</option>
+    <option value="">Rudaghara</option>
+    <option value="">Fulbari</option>
+    <option value="">Boyalmari</option>
+</select>
+
+</p>
+
+<p>
+    <label for="vill">Village/House No./Road No./Other Alternative*</label>
+    <input type="text" name="" id="vill">
+    
+    </p>
+
+    <p>
+        <label for="post">Post Office*</label>
+        <input type="text" name="" id="post">
+        
+        </p>
+    
+
+        <p>
+<label for="edu">Educational Qualification* <strong>(Higher Level)</strong></label>
+<select name="" id="">
+    <option value="" selected disabled>--No Select--</option>
+    <option value="">SSC</option>
+    <option value="">HSC</option>
+    <option value="">HONS</option>
+    <option value="">DIPLOMA</option>
+    <option value="">CSE</option>
+    <option value="">MEDICAL</option>
+    <option value="">ENGINEERING</option>
+    <option value="">BSC</option>
+    <option value="">COMPUTER</option>
+    <option value="">CIVIL ENGINEERING</option>
+    <option value="">Phd</option>
+</select>
+
+        </p>
+
+<p>
+<label for="com">Have any computer?*</label>
+<input type="radio" name="" id="com">Yes
+<input type="radio" name="" id="com">No
+
+</p>
+
+<p>
+
+    <label for="pho">Photograph*</label>
+<input type="file" name="" id="pho">
+<br>
+(File type must be jpg or jpeg or png. Minimum file size 2 mb.)
+
+</p>
+
+<p>
+<label for="sig">Signature*</label>
+<input type="file" name="" id="sig"><br>
+(File type must be jpg or jpeg or png. Minimum file size 2 mb.)
+
+
+</p>
+
+<input type="submit" value="Submit Data">
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
